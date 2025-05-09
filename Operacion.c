@@ -1,5 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
+int multiplicacion(int a, int b){
+    return a * b;
+}
+
+int division(int a, int b){
+    if(b != 0)
+        return a / b;
+    else
+        return 0;
+}
 #include <math.h>
 int main(){
 int num1 = 12;
